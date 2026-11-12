@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { Fuel, CheckCircle, Clock, Gauge, ArrowRight, TrendingUp, Zap } from 'lucide-react';
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import { useAppContext } from '../../context/AppContext';
-import { formatPressure, formatDuration, formatPrice } from '../../utils/formatters';
-import type { StationSummaryDto } from '../../types';
+import { useAppContext } from "../context/AppContext";
+import { formatPressure, formatDuration, formatPrice } from '../utils/formatters';
+import type { StationSummaryDto } from '../types';
 
 // ─── Stat Card ───────────────────────────────────────────────────────────────
 
